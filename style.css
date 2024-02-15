@@ -64,3 +64,96 @@
     background-color: #FFCC70;
     color: #333;
   }
+
+  .header1{
+    background-color: #8ECDDD;
+    display: flex;
+    padding: 50px;
+    border-radius: 0px 230px 50px 0px;
+  }
+
+  .banner img{
+    width: 100%;
+    height: 500px;
+  }
+
+  .header1 .di1 {
+    font-size: 34px;
+    text-align: justify;
+  }
+
+  .pro h3{
+    text-align: center;
+    font-size: 34px;
+  }
+
+  .pro {
+    padding: 20px;
+    background-color: #f5f5f5; 
+  }
+  
+  .pro h3 {
+    text-align: center;
+    color: #333; 
+  }
+  
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+  }
+  
+  .card {
+    width: 250px; 
+    /* height: 450px;  */
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 15px; 
+    margin: 0 10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5;
+  }
+  
+.card img{
+    height: 200px;
+    width: 80%;
+    padding: 20px;
+}
+
+.card-details{
+    padding: 10px;
+    background-color: rgb(182, 175, 175);
+  
+}
+
+.card-title{
+font-size: 20px;
+}
+
+.card-description{
+    font-weight: 400;
+}
+
+.card-foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-price{
+    font-size: 21px;
+    color: green;
+}
+
+.card-button{
+    background-color: #FC6736;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+  
+.card-button:hover{
+    background-color: #FFCC70;
+}
+
